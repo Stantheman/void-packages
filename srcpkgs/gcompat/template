@@ -1,14 +1,16 @@
 # Template file for 'gcompat'
 pkgname=gcompat
-version=0.3.0
-revision=1
+#version=0.4.0
+version=1.0.3
+revision=0
 build_style=gnu-makefile
 short_desc="Compatibility layer to allow running glibc binaries on musl systems"
 maintainer="Daniel James <djames@orcadian.net>"
 license="ISC"
 homepage="https://code.foxkit.us/adelie/gcompat"
-distfiles="https://distfiles.AdelieLinux.org/source/${pkgname}/${pkgname}-${version}.tar.xz"
-checksum=31bb3ead012e23a1f3b4bedc8a376655d3b65c66d37e6acc865a9b72163f50ea
+#distfiles="https://distfiles.AdelieLinux.org/source/${pkgname}/${pkgname}-${version}.tar.xz"
+distfiles="file:////var/tmp/gcompat-1.0.3.tar.gz"
+checksum=255a1341b6d79db3912a65367f39e969a58037c332bcfe62465f1b15f7566b13
 
 # https://sourceware.org/glibc/wiki/ABIList
 # https://wiki.linaro.org/RikuVoipio/LdSoTable
